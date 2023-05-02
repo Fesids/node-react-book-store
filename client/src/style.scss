@@ -1,0 +1,22 @@
+.book-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.book{
+    flex: 1 0 50%;
+    display: inline-block;
+    flex-grow: 1;
+    justify-content: center;
+    box-sizing: border-box;
+   
+    img{
+        width: 98%;
+        height: 210px;
+    }
+    
+   
+    
+}
